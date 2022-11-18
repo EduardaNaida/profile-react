@@ -1,0 +1,16 @@
+.mainBlock {
+    background: #8664ed;
+    height: 100vh;
+}
+
+
+.welcomeText {
+    width: 300px;
+    background-color: rgba(199, 194, 224, 0.51);
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(199, 194, 224, 0.63);
+}

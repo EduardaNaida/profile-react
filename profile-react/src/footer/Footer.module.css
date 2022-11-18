@@ -1,0 +1,22 @@
+.footerBlock {
+    background-color: rgb(158, 126, 192);
+    height: 40vh;
+}
+
+.footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background-color: darkgrey;
+}
+
+.items {
+    border: 1px solid;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
