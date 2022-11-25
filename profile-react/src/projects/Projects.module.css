@@ -1,6 +1,6 @@
 .projectsBlock {
     background-color: rgb(206, 195, 124);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projectsContainer {
