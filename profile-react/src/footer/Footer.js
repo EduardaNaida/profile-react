@@ -2,12 +2,13 @@ import React from 'react';
 import style from './Footer.module.css'
 import styleC from './../common/styles/Container.module.css';
 import Items from "./Items";
+import Title from "../common/components/Title";
 
 const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleC.container} ${style.footerContainer}`}>
-                <h2 className={style.title}>Eduarda Milinkevich</h2>
+                <Title title={'Eduarda Milinkevich'}/>
                 <div className={style.items}>
                     <Items item={'Facebook'}/>
                     <Items item={'Instagram'}/>

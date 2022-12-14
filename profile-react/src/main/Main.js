@@ -5,7 +5,6 @@ const Main = () => {
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
-
                 <div className={style.welcomeText}>
                     <span>Hi there!</span>
                     <h1>I am Eduarda Milinkevich</h1>

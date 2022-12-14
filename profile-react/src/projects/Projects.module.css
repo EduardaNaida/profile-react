@@ -1,5 +1,5 @@
 .projectsBlock {
-    background-color: rgb(206, 195, 124);
+    background-color: #f8f9fa;
     min-height: 100vh;
 }
 
@@ -8,9 +8,9 @@
     flex-direction: column;
 }
 
-.title {
-    background-color: rgba(0, 0, 0, 0.09);
-}
+/*.title {*/
+/*    color: rgb(103, 34, 181);*/
+/*}*/
 
 .projects {
     border: 1px solid;
@@ -18,4 +18,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 574px){
+    .projects {
+        justify-content: center;
+    }
 }

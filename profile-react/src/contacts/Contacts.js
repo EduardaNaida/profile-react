@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './Contacts.module.css';
 import styleC from "../common/styles/Container.module.css";
+import Title from "../common/components/Title";
 
 const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleC.container} ${style.contactsContainer}`}>
-                <h2 className={style.title}>Contacts</h2>
+                <Title title={'Contacts'}/>
                     <form action="#" className={style.form}>
                             <input type={'text'} id={'fname'} name={'firstName'}
                                    placeholder={'Your name'}/>
@@ -14,7 +15,7 @@ const Contacts = () => {
                                    placeholder={'Your last name'}/>
                             <textarea name="" id="" cols="30" rows="10"></textarea>
                     </form>
-                <button className={style.button}>Send</button>
+                <button type={'submit'} className={style.button}>Send</button>
             </div>
         </div>
     );
