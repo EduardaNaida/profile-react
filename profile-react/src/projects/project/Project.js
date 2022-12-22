@@ -1,10 +1,10 @@
 import React from 'react';
-import style from '../../projects/project/Project.module.css';
+import style from './Project.module.scss';
 
 const Project = (props) => {
     return (
         <div className={style.project}>
-            <div className={style.icon}>
+            <div className={style.icon} style={props.style}>
                 <a className={style.button} href="#">View</a>
             </div>
             <div className={style.projectInfo}>
