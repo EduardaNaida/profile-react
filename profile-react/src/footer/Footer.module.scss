@@ -1,0 +1,29 @@
+@import "../../src/common/styles/sass/variables";
+@import "../../src/common/styles/sass/mixins";
+
+.footerBlock {
+  background-color: rgb(29, 28, 45);
+  height: 40vh;
+
+  .footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .items {
+    border: 1px solid;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0 0 5px;
+  }
+}

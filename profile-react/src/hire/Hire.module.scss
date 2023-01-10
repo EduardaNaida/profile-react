@@ -1,0 +1,15 @@
+@import "../../src/common/styles/sass/variables";
+@import "../../src/common/styles/sass/mixins";
+
+.hireBlock {
+  background-color: $bgColor;
+
+  .hireContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hireBtn {
+    padding: 10px 20px;
+  }
+}
