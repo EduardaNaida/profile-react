@@ -9,11 +9,20 @@ const Contacts = () => {
             <div className={`${styleC.container} ${style.contactsContainer}`}>
                 <Title className={style.title} title={'Contacts'}/>
                     <form action="#" className={style.form}>
-                            <input type={'text'} id={'fname'} name={'firstName'}
+                            <input type={'text'}
+                                   className={style.input}
+                                   id={'name'}
+                                   name={'name'}
                                    placeholder={'Your name'}/>
-                            <input type={'text'} id={'lname'} name={'lastName'}
-                                   placeholder={'Your last name'}/>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <input type={'text'}
+                                   className={style.input}
+                                   id={'email'}
+                                   name={'email'}
+                                   placeholder={'Your email'}/>
+                            <textarea name="" id="" cols="30"
+                                      placeholder={'Message..'}
+                                      className={style.textarea}
+                                      rows="10"></textarea>
                     </form>
                 <button type={'submit'} className={style.button}>Send</button>
             </div>
