@@ -32,7 +32,7 @@ const Skills = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleC.container} ${style.skillsContainer}`}>
-                <Title title={'Skills'}/>
+                <Title className={style.titleSkill} title={'Skills'}/>
                 <div className={style.skills}>
                     <Skill style={js} title={'Js'} description={'About js'}/>
                     <Skill style={typeScript} title={'TypeScript'} description={'About typeScript'}/>

@@ -3,6 +3,7 @@
 
 .hireBlock {
   background-color: $bgColor;
+  height: 200px;
 
   .hireContainer {
     flex-direction: column;
@@ -11,5 +12,7 @@
 
   .hireBtn {
     padding: 10px 20px;
+    text-decoration: none;
+    color: $textColor;
   }
 }

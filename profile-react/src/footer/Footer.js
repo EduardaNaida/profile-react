@@ -8,7 +8,8 @@ const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleC.container} ${style.footerContainer}`}>
-                <h1 className={style.text}>Eduarda Milinkevich</h1>
+                {/*<h1 className={style.text}>Eduarda Milinkevich</h1>*/}
+                <Title className={style.title} title={'Eduarda Milinkevich'} />
                 <div className={style.items}>
                     <Items item={'Facebook'}/>
                     <Items item={'Instagram'}/>

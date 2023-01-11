@@ -10,6 +10,10 @@
     justify-content: flex-start;
     flex-direction: column;
 
+    .title {
+      color: white;
+    }
+
     .form {
       width: 250px;
       height: 500px;

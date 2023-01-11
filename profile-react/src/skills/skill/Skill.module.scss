@@ -37,6 +37,7 @@
 
   .skillsInfo {
     padding: 25px 20px;
+    color: black;
 
     .title {
       @include text($fontFamily, 16px, 1.2);

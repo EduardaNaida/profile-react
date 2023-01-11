@@ -8,7 +8,7 @@ const Hire = () => {
         <div className={style.hireBlock}>
             <div className={`${styleContainer.container} ${style.hireContainer}`}>
                 <Title title={'I\'m available for Freelance!'}/>
-                <a href="#" className={style.hireBtn}>Hire me</a>
+                <a href="#" className={style.hireBtn}>HIRE ME</a>
             </div>
         </div>
     );
