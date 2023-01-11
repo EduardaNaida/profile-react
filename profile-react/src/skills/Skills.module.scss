@@ -2,7 +2,8 @@
 @import "../../src/common/styles/sass/mixins";
 
 .skillsBlock {
-    background-color: $bgColor;
+    background-color: $secondBgColor;
+    color: $primaryTextColor;
     min-height: 100vh;
     padding-top: 30px;
     .skillsContainer {

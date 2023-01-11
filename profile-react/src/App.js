@@ -1,6 +1,6 @@
-import './App.css';
+import './App.scss';
 import Header from "./header/Header";
-import style from './App.css'
+import style from './App.scss'
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
