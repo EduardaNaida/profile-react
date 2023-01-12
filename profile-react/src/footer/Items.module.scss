@@ -1,22 +1,24 @@
 .itemsBlock {
   width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
-  .items {
+  .text {
+    font-size: 14px;
     width: 100px;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     color: white;
   }
 
   .icon {
-    margin-top: 10px;
-    width: 60px;
-    height: 60px;
+    margin: 10px 0 10px 0;
+    width: 30px;
+    height: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-size: cover;
     background-position: center;
