@@ -4,6 +4,7 @@
 .footerBlock {
   background-color: rgb(29, 28, 45);
 
+
   .footerContainer {
     justify-content: space-around;
     flex-direction: column;
@@ -17,10 +18,10 @@
   }
 
   .items {
-    width: 500px;
+    width: 40%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-wrap: nowrap;
   }
 
   .rights {

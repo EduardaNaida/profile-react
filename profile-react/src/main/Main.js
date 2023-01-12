@@ -1,16 +1,19 @@
 import style from './Main.module.scss';
-import styleContainer from './../common/styles/Container.module.css';
+import styleC from "../common/styles/Container.module.css";
 
 const Main = () => {
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleC.container} ${style.mainContainer}`}>
                 <div className={style.welcomeText}>
-                    <span>Hi there!</span>
-                    <h1>I am Eduarda Milinkevich</h1>
-                    <p>A frontend developer</p>
+                    <span>Hi There!</span>
+                    <span>I am <span>Eduarda Milinkevich</span></span>
+                    <h1>Frontend Developer</h1>
                 </div>
-                <div className={style.image}></div>
+                <div className={style.image}>
+                    <img src={require("../assets/image/IMG_2580.jpg")} alt=""
+                    className={style.image}/>
+                </div>
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 .itemsBlock {
-  width: 300px;
+  width: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,6 @@
     width: 100px;
     align-items: center;
     text-align: center;
-    flex-wrap: nowrap;
     color: white;
   }
 
